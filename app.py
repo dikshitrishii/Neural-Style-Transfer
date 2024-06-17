@@ -69,6 +69,8 @@ def get_style_model_and_losses(cnn, mean, std, style_img, content_img, content_l
     style_losses = []
     model = nn.Sequential(normalization)
     i = 0
+    #Extracting the features from just Conv2D layer, for all other keeping the layers same
+    #All names are as per in vgg19
     for layer in cnn.children():
         if isinstance(layer, nn.Conv2d):
             i += 1
