@@ -57,11 +57,5 @@ The project requires the following libraries:
 - `PIL`: For image processing.
 - `matplotlib`: For image visualization (optional, mainly for development).
 
-You can install all dependencies using the `requirements.txt` file provided:
-
-```text
-streamlit
-torch
-torchvision
-Pillow
-matplotlib
+## Referances
+ "A Neural Algorithm of Artistic Style" by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge.
