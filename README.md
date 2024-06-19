@@ -14,18 +14,12 @@ Follow these steps to set up the environment and run the project:
     cd Neural-Style-Transfer
     ```
 
-2. **Set Up a Virtual Environment**:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. **Install Dependencies**:
+2. **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Run the Application**:
+3. **Run the Application**:
     ```bash
     streamlit run app.py
     ```
