@@ -16,7 +16,7 @@ Follow these steps to set up the environment and run the project:
 
 2. **Install Dependencies**:
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirement.txt
     ```
 
 3. **Run the Application**:
